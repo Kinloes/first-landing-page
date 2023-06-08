@@ -1,3 +1,19 @@
-body{
-    background-color: blue;
+.header{
+    border: dashed blue 2px;
+}
+
+.main{
+    border: solid green;
+}
+.gallery{
+    border: solid orange;
+}
+.quoteblock{
+    background-color: gray;
+}
+.advertisement{
+    border: solid teal;
+}
+.footer{
+    border: solid darkkhaki;
 }
