@@ -4,7 +4,21 @@ body{
 }
 .htop{
     display: flex;
-    gap: 20px;
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    gap: 50px;
+}
+.links a{
+    text-decoration: none;
+    color:#f9faf8
 }
 .header{
     background-color: #1f2937;
@@ -48,7 +62,8 @@ body{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    border-radius: 8px;
+    border-radius: 12px;
+    border-style: none;
 }
 .galtop{
     font-size: 30px;
@@ -69,6 +84,13 @@ body{
     justify-content: center;
     font-size: 36px;
     font-style: italic;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+.quoteblock .attribution{
+    padding-top: 20px;
+    padding-left: 400px;
+    font-weight: bold;
 }
 .advertisement{
     border: solid hotpink;
