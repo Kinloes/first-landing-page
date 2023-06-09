@@ -27,15 +27,27 @@ body{
 .h1{
     font-size: 48px;
     font-weight: bolder;
+    width:600px;
+    margin-bottom: 10px;
+}
+.h2{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 .main{
     background-color: #1f2937;
     color: #f9faf8;
 }
-.main button{
+.maincontent button{
+    font-weight: bold;
     background-color: #3882f6;
     color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
 }
 .galtop{
     font-size: 30px;
@@ -74,8 +86,32 @@ body{
     width: 200px;
     box-shadow: 5px 5px 2px 2px;
 }
-.box1, .box2, .box3, .box4{
+.box1{
     background-image: url("images/box1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    background-image: url("images/box2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    background-image: url("images/box3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.box4{
+    background-image: url("images/box4.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
